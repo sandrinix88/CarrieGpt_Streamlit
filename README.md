@@ -2,15 +2,25 @@
 
 CarrieGPT is a locally hosted AI assistant inspired by Carrie Bradshaw — witty, stylish, emotionally intelligent, and always ready with a metaphor that turns heartbreak into high fashion.
 
-Built with LangChain, Ollama, and Streamlit, CarrieGPT runs entirely on your machine. No OpenAI keys, no cloud calls, no limits. Just install, run, and let her sparkle.
+Built with **LangChain**, **Ollama**, and **Streamlit**, CarrieGPT runs entirely on your machine.  
+💻 No OpenAI keys, no cloud calls, no limits. Just install, run, and let her sparkle.
 
-Carrie’s personality is baked into a custom model called `carriegpt`, created from a Modelfile that defines her voice, tone, and emotional intelligence. Whether you chat with her via terminal or Streamlit UI, she responds with punchy, screenshot-worthy advice — always warm, always fabulous.
+---
 
-To get started:
+## 🌟 About
+Carrie’s personality is baked into a custom model called `carriegpt`, created from a Modelfile that defines her voice, tone, and emotional intelligence.  
+Whether you chat with her via terminal or Streamlit UI, she responds with punchy, screenshot-worthy advice — always warm, always fabulous.
+
+---
+
+## 🚀 Getting Started
 
 1. **Install Ollama** → [https://ollama.com](https://ollama.com)
 
 2. **Clone this repo**
+   ```bash
+   git clone https://github.com/yourusername/carriegpt-streamlit.git
+   cd carriegpt-streamlit
 
 3. **Create the model**:
    
@@ -21,7 +31,8 @@ To get started:
 
     ```bash
    python -m venv venv
-   venv\Scripts\activate  # or source venv/bin/activate on Mac/Linux
+   venv\Scripts\activate   # Windows
+   source venv/bin/activate # Mac/Linux
 
 5. Install dependencies:
 
@@ -41,9 +52,20 @@ To get started:
 CarrieGPT includes a modular model_config.py file that centralizes model setup and token trimming logic. Both the CLI and Streamlit versions import from it, keeping your code clean and consistent.No OpenAI? No problem. Carrie runs entirely on your machine — no billing, no rate limits, no API keys. Just pure, local sass.
 
 
-   
+🧩 Project Structure
 
-   
+CarrieGPT-Modelfile → defines Carrie’s style & voice
+
+model_config.py → centralizes model setup and token trimming
+
+carrie_safe.py → CLI chat with Carrie
+
+carrie_app.py → Streamlit web UI
+
+💋 Why Carrie?
+
+No OpenAI? No problem. Carrie runs entirely on your machine — no billing, no rate limits, no API keys.
+Just pure, local sass.
 
    
    
