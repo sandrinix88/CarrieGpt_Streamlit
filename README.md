@@ -1,3 +1,5 @@
+![Project Status](https://img.shields.io/badge/status-active-brightgreen)
+
 # 💄 CarrieGPT — Your AI Columnist with Sass and Soul
 
 CarrieGPT is a locally hosted AI assistant inspired by Carrie Bradshaw — witty, stylish, emotionally intelligent, and always ready with a metaphor that turns heartbreak into high fashion.
