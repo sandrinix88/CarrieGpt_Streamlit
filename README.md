@@ -21,7 +21,7 @@ Whether you chat with her via terminal or Streamlit UI, she responds with punchy
 
 2. **Clone this repo**
    ```bash
-   git clone https://github.com/yourusername/carriegpt-streamlit.git
+   git clone https://github.com/sandrinix88/carriegpt-streamlit.git
    cd carriegpt-streamlit
 
 3. **Create the model**:
